@@ -1,0 +1,26 @@
+{
+  "name": "supabase-nextjs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^13",
+    "@supabase/auth-helpers-nextjs": "*",
+    "@supabase/auth-helpers-react": "*",
+    "@supabase/auth-ui-react": "*",
+    "@supabase/supabase-js": "*",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "next": "^13",
+    "react": "*",
+    "react-dom": "*",
+    "typescript": "*"
+  }
+}
