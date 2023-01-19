@@ -145,9 +145,9 @@
     websocket "^1.0.34"
 
 "@supabase/storage-js@^2.1.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@supabase/storage-js/-/storage-js-2.2.0.tgz#f579788a79c5d76592fae1ce5ae45f1ec40ae9b6"
-  integrity sha512-YvU4pEj1u6oR9/iKN1Nc0KBO1DJgEkmwykx0ESSSUSmnlytLcbuXAM0DHY7W6Px9cQmEkpOcB2eZ3zRYjn+Ikw==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@supabase/storage-js/-/storage-js-2.3.0.tgz#296b36eb0bde378763117217b2f99303f1d4ec71"
+  integrity sha512-YGWVCEYYYF3+UiyL8O4xC78N9n9paLbT0hHl8dmYAtd3DqyWtu5Eph9JTu0PWm+/29Zhns5TbhUZW4xpWjJfPQ==
   dependencies:
     cross-fetch "^3.1.5"
 
@@ -214,9 +214,9 @@ bufferutil@^4.0.1:
     node-gyp-build "^4.3.0"
 
 caniuse-lite@^1.0.30001406:
-  version "1.0.30001445"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001445.tgz#cf2d4eb93f2bcdf0310de9dd6d18be271bc0b447"
-  integrity sha512-8sdQIdMztYmzfTMO6KfLny878Ln9c2M0fc7EH60IjlP4Dc4PiCy7K2Vl3ITmWgOyPgVQKa5x+UP/KqFsxj4mBg==
+  version "1.0.30001446"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001446.tgz#6d4ba828ab19f49f9bcd14a8430d30feebf1e0c5"
+  integrity sha512-fEoga4PrImGcwUUGEol/PoFCSBnSkA9drgdkxXkJLsUBOnJ8rs3zDv6ApqYXGQFOyMPsjh79naWhF4DAxbF8rw==
 
 client-only@0.0.1:
   version "0.0.1"
