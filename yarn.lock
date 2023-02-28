@@ -82,11 +82,6 @@
   resolved "https://registry.yarnpkg.com/@stitches/core/-/core-1.2.8.tgz#dce3b8fdc764fbc6dbea30c83b73bfb52cf96173"
   integrity sha512-Gfkvwk9o9kE9r9XNBmJRfV8zONvXThnm1tcuojL04Uy5uRyqg93DC83lDebl0rocZCfKSjUv+fWYtMQmEDJldg==
 
-"@stitches/react@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@stitches/react/-/react-1.2.8.tgz#954f8008be8d9c65c4e58efa0937f32388ce3a38"
-  integrity sha512-9g9dWI4gsSVe8bNLlb+lMkBYsnIKCZTmvqvDG+Avnn69XfmHZKiaMrx7cgTaddq7aTPPmXiTsbFcUy0xgI4+wA==
-
 "@supabase/auth-helpers-nextjs@*":
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/@supabase/auth-helpers-nextjs/-/auth-helpers-nextjs-0.5.4.tgz#afe7cb7d3b601e434820abcb3e8599a898e9ca40"
@@ -105,15 +100,20 @@
   integrity sha512-c+hi3N6DhjPTzjXGOokre4gmMZOqt0f1ORrwZwi2s07pk3cbkmn77DwwVtlYMNi3oZNYRQqAfxJu83UzpJrrmg==
 
 "@supabase/auth-ui-react@*":
-  version "0.2.8"
-  resolved "https://registry.yarnpkg.com/@supabase/auth-ui-react/-/auth-ui-react-0.2.8.tgz#66f30565d1797bccc6c715de2486dc38e050ac0c"
-  integrity sha512-CfN9Zt2t1PMfri8htLCFYYIWho6F15ZvbWICE3RuOZ348z1P15iP6scjxB3704Jbu334Q+ykCQP+UzdnB7cXHQ==
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@supabase/auth-ui-react/-/auth-ui-react-0.3.0.tgz#45a5109a801342117cc2c3ea6e50797fff95ccb4"
+  integrity sha512-LPcK56TvbrJJab6Usc7YuEam9YrgFDV14a1dPB/pD5PBvFKDCUBZK/0a4GiCM9RTXz/DrspysUrSpNte9Up42g==
   dependencies:
     "@stitches/core" "^1.2.8"
-    "@stitches/react" "^1.2.8"
+    "@supabase/auth-ui-shared" "0.1.0"
     prop-types "^15.7.2"
-  optionalDependencies:
-    fsevents "^2.3.2"
+    react "^18.2.0"
+    react-dom "^18.2.0"
+
+"@supabase/auth-ui-shared@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@supabase/auth-ui-shared/-/auth-ui-shared-0.1.0.tgz#7bb76a4c2246b9effe3e84271886df00e5e01c00"
+  integrity sha512-b9digHjDedSHzkpg+ZM9xs26DzHAZW/XM6RspQvlx3lBZdt0x7MsDnlcQ5vXDjC6Uctp/XbeDJ90O/P8wxSKfw==
 
 "@supabase/functions-js@^2.0.0":
   version "2.0.0"
@@ -283,11 +283,6 @@ ext@^1.1.2:
   dependencies:
     type "^2.7.2"
 
-fsevents@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
-  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
-
 is-typedarray@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
@@ -385,7 +380,7 @@ prop-types@^15.7.2:
     object-assign "^4.1.1"
     react-is "^16.13.1"
 
-react-dom@*:
+react-dom@*, react-dom@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
   integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
@@ -398,7 +393,7 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react@*:
+react@*, react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
