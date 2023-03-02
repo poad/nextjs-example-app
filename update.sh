@@ -13,6 +13,8 @@ if [ $result -ne 0 ]; then
   exit $result
 fi
 pwd
+export NEXT_PUBLIC_SUPABASE_URL=http://localhost:3000/
+export NEXT_PUBLIC_SUPABASE_ANON_KEY=test
 yarn install && yarn upgrade && yarn build
 result=$?
 if [ $result -ne 0 ]; then
