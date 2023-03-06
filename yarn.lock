@@ -123,9 +123,9 @@
     cross-fetch "^3.1.5"
 
 "@supabase/gotrue-js@^2.12.0":
-  version "2.12.2"
-  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-2.12.2.tgz#aaec9382c28e5218ae9dc807930a79e864c355cf"
-  integrity sha512-4XpeHxlsu/dXAkj32OxWUVV/8VPMa+cwmNVpVmffMpIJWo/cnRllqqYW2tZX3o8ysA05I/AgYy0nDkef1kuHCQ==
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-2.13.0.tgz#9b415a49986196b0e5e80d6289da353d7bddfc4e"
+  integrity sha512-NFBHuHNUn94mP/zOQzsp1k2PtwV55Vhf6ZbTzmMpiUvIRlXhVteZcdfdoAQDIBrdxOdL7F54NFp1gIupPZka6g==
   dependencies:
     cross-fetch "^3.1.5"
 
