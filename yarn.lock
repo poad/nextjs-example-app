@@ -83,21 +83,21 @@
   integrity sha512-Gfkvwk9o9kE9r9XNBmJRfV8zONvXThnm1tcuojL04Uy5uRyqg93DC83lDebl0rocZCfKSjUv+fWYtMQmEDJldg==
 
 "@supabase/auth-helpers-nextjs@*":
-  version "0.5.6"
-  resolved "https://registry.yarnpkg.com/@supabase/auth-helpers-nextjs/-/auth-helpers-nextjs-0.5.6.tgz#16ac5f6b0fbe2b3858d5c35cec510eebe192bbb8"
-  integrity sha512-NiUGGnO9vRycMDnl/DzFbHCJhNV9DdH1vH61T1Fzgp2aRW8LfLRVlBQeGCg2AzyvAe0MiLbbRsGNcJmAmJPs9A==
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/@supabase/auth-helpers-nextjs/-/auth-helpers-nextjs-0.5.7.tgz#8d9094f92b05bfa1b5dae225182d3be0bc553877"
+  integrity sha512-OZPP88XzHduK3qkyP13aHslFfqRCN79OW5lhe1ETYZ/qCFPzUeVmPHW01r7Nbl9ewBCPpC2NvYhAPFT6kxYM3g==
   dependencies:
-    "@supabase/auth-helpers-shared" "0.3.0"
+    "@supabase/auth-helpers-shared" "0.3.1"
 
 "@supabase/auth-helpers-react@*":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@supabase/auth-helpers-react/-/auth-helpers-react-0.3.1.tgz#815493a294662c56b83c7dd51692dacd24329342"
   integrity sha512-g3SFv08Dz9FapNif/ZY1b7qKGlMJDyTLSayHBz3kb3FuYxg7aLWgQtydDhm5AGbc0XtvpIBuhGTIOVevwpdosA==
 
-"@supabase/auth-helpers-shared@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@supabase/auth-helpers-shared/-/auth-helpers-shared-0.3.0.tgz#765e023801572658ba64503b3625fe9e135b10a3"
-  integrity sha512-6lKhVMBZnGdFelpZyvQDBQSOY+pglS6a5U4ieAqfKQ/rx3rSjRASR3UGh7V+el1re3xYe3ddVBWXw16rdVAzrQ==
+"@supabase/auth-helpers-shared@0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@supabase/auth-helpers-shared/-/auth-helpers-shared-0.3.1.tgz#e0b5bf504c16d74955a53db1b8045ffb14e0782f"
+  integrity sha512-knN6QU16x4L6uWZSKUDDqwQvlOUegLmXtUOM9hlCOazez6vkTEgYzsmqhYm8FvSf2qr4Rhh04DEFKuikJFYVOA==
 
 "@supabase/auth-ui-react@*":
   version "0.3.5"
