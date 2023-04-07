@@ -83,21 +83,23 @@
   integrity sha512-Gfkvwk9o9kE9r9XNBmJRfV8zONvXThnm1tcuojL04Uy5uRyqg93DC83lDebl0rocZCfKSjUv+fWYtMQmEDJldg==
 
 "@supabase/auth-helpers-nextjs@*":
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/@supabase/auth-helpers-nextjs/-/auth-helpers-nextjs-0.5.7.tgz#8d9094f92b05bfa1b5dae225182d3be0bc553877"
-  integrity sha512-OZPP88XzHduK3qkyP13aHslFfqRCN79OW5lhe1ETYZ/qCFPzUeVmPHW01r7Nbl9ewBCPpC2NvYhAPFT6kxYM3g==
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/@supabase/auth-helpers-nextjs/-/auth-helpers-nextjs-0.5.9.tgz#37b9e7ea6aa15b8291d996db34a62c0fc33f07b9"
+  integrity sha512-OBmltVuPNFbtznBAgQgOFaWh3dO6rRmU7i77TVzEkbViZoK2ylzlKPIORg9Wh+4ZgYbP2QMsI5GzEtAz+aNTvA==
   dependencies:
-    "@supabase/auth-helpers-shared" "0.3.1"
+    "@supabase/auth-helpers-shared" "0.3.3"
 
 "@supabase/auth-helpers-react@*":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@supabase/auth-helpers-react/-/auth-helpers-react-0.3.1.tgz#815493a294662c56b83c7dd51692dacd24329342"
   integrity sha512-g3SFv08Dz9FapNif/ZY1b7qKGlMJDyTLSayHBz3kb3FuYxg7aLWgQtydDhm5AGbc0XtvpIBuhGTIOVevwpdosA==
 
-"@supabase/auth-helpers-shared@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@supabase/auth-helpers-shared/-/auth-helpers-shared-0.3.1.tgz#e0b5bf504c16d74955a53db1b8045ffb14e0782f"
-  integrity sha512-knN6QU16x4L6uWZSKUDDqwQvlOUegLmXtUOM9hlCOazez6vkTEgYzsmqhYm8FvSf2qr4Rhh04DEFKuikJFYVOA==
+"@supabase/auth-helpers-shared@0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@supabase/auth-helpers-shared/-/auth-helpers-shared-0.3.3.tgz#a00d336a631867c199c9634739c225d2303ba00b"
+  integrity sha512-ZwZGffApfyz9MiT3knnZoF1DMWE56H/Q0Mrsn22J9ubhss7/+e7TP3dChxxwlUYqtDmjmLV6OV8W0BANENfUew==
+  dependencies:
+    js-base64 "^3.7.5"
 
 "@supabase/auth-ui-react@*":
   version "0.3.5"
@@ -295,6 +297,11 @@ is-typedarray@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
   integrity sha512-cyA56iCMHAh5CdzjJIa4aohJyeO1YbwLi3Jc35MmRU6poroFjIGZzUzupGiRPOjgHg9TLu43xbpwXk523fMxKA==
+
+js-base64@^3.7.5:
+  version "3.7.5"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.7.5.tgz#21e24cf6b886f76d6f5f165bfcd69cc55b9e3fca"
+  integrity sha512-3MEt5DTINKqfScXKfJFrRbxkrnk2AxPWGBL/ycjz4dK8iqiSJ06UxD8jh8xuh6p10TX4t2+7FsBYVxxQbMg+qA==
 
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
