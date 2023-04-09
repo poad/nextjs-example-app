@@ -63,9 +63,9 @@
   integrity sha512-Gfkvwk9o9kE9r9XNBmJRfV8zONvXThnm1tcuojL04Uy5uRyqg93DC83lDebl0rocZCfKSjUv+fWYtMQmEDJldg==
 
 "@supabase/auth-helpers-nextjs@*":
-  version "0.5.9"
-  resolved "https://registry.yarnpkg.com/@supabase/auth-helpers-nextjs/-/auth-helpers-nextjs-0.5.9.tgz#37b9e7ea6aa15b8291d996db34a62c0fc33f07b9"
-  integrity sha512-OBmltVuPNFbtznBAgQgOFaWh3dO6rRmU7i77TVzEkbViZoK2ylzlKPIORg9Wh+4ZgYbP2QMsI5GzEtAz+aNTvA==
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@supabase/auth-helpers-nextjs/-/auth-helpers-nextjs-0.6.0.tgz#bc75a8f021108f3ddbb583f570abd68c0e9e9500"
+  integrity sha512-f1e5blmpt9F/Bnb2hKreWHqf3zEhl29P357d5fnXzQ3Ph7DuW2Wha7uwQVTgE2QH3niqVpJpY0Pg0zBT5NmNWQ==
   dependencies:
     "@supabase/auth-helpers-shared" "0.3.3"
 
