@@ -128,9 +128,9 @@
     websocket "^1.0.34"
 
 "@supabase/storage-js@^2.4.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@supabase/storage-js/-/storage-js-2.5.0.tgz#67a1d1480b6bf6e0b6584827efe895ed606f6e3e"
-  integrity sha512-6brHcFA8Ba8tDw72/mSf+pIgDfWQYkd9BjAra/RSAA0uCy84kALGnxIpxsf6mv40ka2GNRzstRGIKRlUdJgi/g==
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@supabase/storage-js/-/storage-js-2.5.1.tgz#16c4c088996e0395034717836e626f14df63a349"
+  integrity sha512-nkR0fQA9ScAtIKA3vNoPEqbZv1k5B5HVRYEvRWdlP6mUpFphM9TwPL2jZ/ztNGMTG5xT6SrHr+H7Ykz8qzbhjw==
   dependencies:
     cross-fetch "^3.1.5"
 
