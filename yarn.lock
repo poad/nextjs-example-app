@@ -286,9 +286,9 @@ is-typedarray@^1.0.0:
   integrity sha512-cyA56iCMHAh5CdzjJIa4aohJyeO1YbwLi3Jc35MmRU6poroFjIGZzUzupGiRPOjgHg9TLu43xbpwXk523fMxKA==
 
 jose@^4.14.0:
-  version "4.14.0"
-  resolved "https://registry.yarnpkg.com/jose/-/jose-4.14.0.tgz#c8c03579a0ba3598194c92ccca777d96adca8f48"
-  integrity sha512-LSA/XenLPwqk6e2L+PSUNuuY9G4NGsvjRWz6sJcUBmzTLEPJqQh46FHSUxnAQ64AWOkRO6bSXpy3yXuEKZkbIA==
+  version "4.14.1"
+  resolved "https://registry.yarnpkg.com/jose/-/jose-4.14.1.tgz#74f12a621ea2ef850bf0dd8405e2ee4041aea934"
+  integrity sha512-SgjXLpP7jhQkUNKL6RpowoR/IF4QKE+WjLDMpNnh2vmhiFs67NftrNpvFtgbwpvRdtueFliahYYWz9E+XZZQlg==
 
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
