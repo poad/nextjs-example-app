@@ -105,9 +105,9 @@
     cross-fetch "^3.1.5"
 
 "@supabase/gotrue-js@^2.26.0":
-  version "2.27.1"
-  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-2.27.1.tgz#3eef3b3bc49fb3f65c3c4f4504a2bd0a818cfd45"
-  integrity sha512-rewbfKTC9DZNnPy4rRpr5ViBXre55wEXPWOueh/ZgwunR1TGmntRcraIM6SDKrP6iRD6ucx325a467uZ5U+KWg==
+  version "2.27.2"
+  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-2.27.2.tgz#d2d6b27977f7efed22966337d11a8b67d6020395"
+  integrity sha512-VVD3M//E7A/fuJsvXVfu7Sv8AuxMHL4owRtp6GoRNxtedHJCngcZzZpIWuQUjbwnNmrfvUQEDuxqNZQVqFbJQw==
   dependencies:
     cross-fetch "^3.1.5"
 
