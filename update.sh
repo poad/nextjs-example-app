@@ -15,7 +15,7 @@ fi
 pwd
 export NEXT_PUBLIC_SUPABASE_URL=http://localhost:3000/
 export NEXT_PUBLIC_SUPABASE_ANON_KEY=test
-yarn install && yarn upgrade && yarn build
+pnpm install && pnpm up && pnpm build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
