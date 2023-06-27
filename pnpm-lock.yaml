@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@supabase/auth-helpers-nextjs':
     specifier: ^0.7.2
@@ -185,8 +189,8 @@ packages:
       - encoding
     dev: false
 
-  /@supabase/gotrue-js@2.31.0:
-    resolution: {integrity: sha512-YcwlbbNfedlue/HVIXtYBb4fuOrs29gNOTl6AmyxPp4zryRxzFvslVN9kmLDBRUAVU9fnPJh2bgOR3chRjJX5w==}
+  /@supabase/gotrue-js@2.32.0:
+    resolution: {integrity: sha512-H9yfM1RF1wM887+5zDqITagfBaZp8qzvXF2/hoIZQMYE+jLbLiCk5ncoS4CWLY4AwKD5NnQS/8dUGFTHQcxqDA==}
     dependencies:
       cross-fetch: 3.1.6
     transitivePeerDependencies:
@@ -223,7 +227,7 @@ packages:
     resolution: {integrity: sha512-RXmTPTobaYAwkSobadHZmEVLmzX3SGrtRZIGfLWnLv92VzBRrjuXn0a+bJqKl50GUzsyqPA+j5pod7EwMkcH5A==}
     dependencies:
       '@supabase/functions-js': 2.1.2
-      '@supabase/gotrue-js': 2.31.0
+      '@supabase/gotrue-js': 2.32.0
       '@supabase/postgrest-js': 1.7.1
       '@supabase/realtime-js': 2.7.3
       '@supabase/storage-js': 2.5.1
@@ -621,7 +625,3 @@ packages:
   /zod@3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: false
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
