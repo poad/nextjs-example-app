@@ -189,8 +189,8 @@ packages:
       - encoding
     dev: false
 
-  /@supabase/gotrue-js@2.42.0:
-    resolution: {integrity: sha512-qYyTD+WVP9gjE7Hzw/ywoL9f+1kuUxeKJbb9JSsxV4wZHdKKPFHczfna8ecbmapH7423OXp0lgQAUDX97M39qw==}
+  /@supabase/gotrue-js@2.44.0:
+    resolution: {integrity: sha512-Et7/UVYsEvMTMEA+F26Vxsqvnq79dG1H5bq31WkyQXH3hY0JUA0+BUixlVinG5Uy/2SRk5eZOs4xxDmQQEJAFw==}
     dependencies:
       cross-fetch: 3.1.8
     transitivePeerDependencies:
@@ -227,7 +227,7 @@ packages:
     resolution: {integrity: sha512-RXmTPTobaYAwkSobadHZmEVLmzX3SGrtRZIGfLWnLv92VzBRrjuXn0a+bJqKl50GUzsyqPA+j5pod7EwMkcH5A==}
     dependencies:
       '@supabase/functions-js': 2.1.2
-      '@supabase/gotrue-js': 2.42.0
+      '@supabase/gotrue-js': 2.44.0
       '@supabase/postgrest-js': 1.7.2
       '@supabase/realtime-js': 2.7.3
       '@supabase/storage-js': 2.5.1
