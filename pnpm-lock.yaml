@@ -189,12 +189,17 @@ packages:
       - encoding
     dev: false
 
-  /@supabase/gotrue-js@2.47.0:
-    resolution: {integrity: sha512-3e34/vsKH/DoSZCpB85UZpFWSJ2p4GRUUlqgAgeTPagPlx4xS+Nc5v7g7ic7vp3gK0J5PsYVCn9Qu2JQUp4vXg==}
+  /@supabase/gotrue-js@2.48.0:
+    resolution: {integrity: sha512-+6g5aFL6+iaZC6mFVpRLauSkU5MrQ52QZA1TlY0/evvz9Rmhqc315tIeUfUK87ZLeX7sOL6XYVGkI6ZxgeyAUA==}
     dependencies:
-      cross-fetch: 3.1.8
-    transitivePeerDependencies:
-      - encoding
+      '@supabase/node-fetch': 2.6.13
+    dev: false
+
+  /@supabase/node-fetch@2.6.13:
+    resolution: {integrity: sha512-rEHQaDVzxLZMCK3p+JW2nzEsK4AJpOQhetppaqAzrFum0Ub8wcnoM/8f1dWRZSulY5fRDP6rJaWT/8X3VleCzg==}
+    engines: {node: 4.x || >=6.0.0}
+    dependencies:
+      whatwg-url: 5.0.0
     dev: false
 
   /@supabase/postgrest-js@1.8.0:
@@ -227,7 +232,7 @@ packages:
     resolution: {integrity: sha512-jA00rquPTppPOHpBB6KABW98lfg0gYXcuGqP3TB1iiduznRVsi3GGk2qBKXPDLMYSe0kRlQp5xCwWWthaJr8eA==}
     dependencies:
       '@supabase/functions-js': 2.1.2
-      '@supabase/gotrue-js': 2.47.0
+      '@supabase/gotrue-js': 2.48.0
       '@supabase/postgrest-js': 1.8.0
       '@supabase/realtime-js': 2.7.4
       '@supabase/storage-js': 2.5.1
