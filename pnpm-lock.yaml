@@ -200,8 +200,8 @@ packages:
       whatwg-url: 5.0.0
     dev: false
 
-  /@supabase/postgrest-js@1.8.2:
-    resolution: {integrity: sha512-HrtqAOnagC9UAURDpzyDvN6Yzn014pZ49nIl19/tXdnxRLH3fjAQoFMW57cqJ2Hw+V2suh93X0LrbVuzUQC9Aw==}
+  /@supabase/postgrest-js@1.8.3:
+    resolution: {integrity: sha512-Ox9EOjKpOtijT7GtY/SDvAkbnA/3xqRpbT5NX5zgH4awHeufy17TTZUNy7yOcbiUoPI5a+Btf2hPhcDP23Fh6w==}
     dependencies:
       cross-fetch: 3.1.8
     transitivePeerDependencies:
@@ -229,7 +229,7 @@ packages:
     dependencies:
       '@supabase/functions-js': 2.1.3
       '@supabase/gotrue-js': 2.48.0
-      '@supabase/postgrest-js': 1.8.2
+      '@supabase/postgrest-js': 1.8.3
       '@supabase/realtime-js': 2.7.4
       '@supabase/storage-js': 2.5.2
       cross-fetch: 3.1.8
