@@ -220,10 +220,12 @@ packages:
       - supports-color
     dev: false
 
-  /@supabase/storage-js@2.5.2:
-    resolution: {integrity: sha512-AMeObfzjFg779tmjmneIer29NtjgWOhVFxo/yVKpL92MXiO1yg3zqBbxUBePRc2aj5iUJcXt1eVG09ut10gsgw==}
+  /@supabase/storage-js@2.5.3:
+    resolution: {integrity: sha512-wyCkBFMTiehvyLUvvvSszvhPkhaHKHcPx//fYN8NoKEa1TQwC2HuO5EIaJ5EagtAVmI1N3EFQ+M4RER6mnTaNg==}
     dependencies:
-      '@supabase/node-fetch': 2.6.13
+      cross-fetch: 3.1.8
+    transitivePeerDependencies:
+      - encoding
     dev: false
 
   /@supabase/supabase-js@2.33.1:
@@ -233,7 +235,7 @@ packages:
       '@supabase/gotrue-js': 2.48.1
       '@supabase/postgrest-js': 1.8.3
       '@supabase/realtime-js': 2.7.4
-      '@supabase/storage-js': 2.5.2
+      '@supabase/storage-js': 2.5.3
       cross-fetch: 3.1.8
     transitivePeerDependencies:
       - encoding
