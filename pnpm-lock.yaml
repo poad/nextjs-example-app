@@ -21,8 +21,8 @@ dependencies:
     specifier: ^2.37.0
     version: 2.37.0
   '@types/node':
-    specifier: ^20.8.0
-    version: 20.8.0
+    specifier: ^20.8.2
+    version: 20.8.2
   '@types/react':
     specifier: ^18.2.24
     version: 18.2.24
@@ -157,7 +157,7 @@ packages:
       '@supabase/supabase-js': ^2.19.0
     dependencies:
       '@supabase/supabase-js': 2.37.0
-      jose: 4.14.6
+      jose: 4.15.1
     dev: false
 
   /@supabase/auth-ui-react@0.4.5(@supabase/supabase-js@2.37.0):
@@ -242,8 +242,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@types/node@20.8.0:
-    resolution: {integrity: sha512-LzcWltT83s1bthcvjBmiBvGJiiUe84NWRHkw+ZV6Fr41z2FbIzvc815dk2nQ3RAKMuN2fkenM/z3Xv2QzEpYxQ==}
+  /@types/node@20.8.2:
+    resolution: {integrity: sha512-Vvycsc9FQdwhxE3y3DzeIxuEJbWGDsnrxvMADzTDF/lcdR9/K+AQIeAghTQsHtotg/q0j3WEOYS/jQgSdWue3w==}
     dev: false
 
   /@types/phoenix@1.6.2:
@@ -275,7 +275,7 @@ packages:
   /@types/websocket@1.0.7:
     resolution: {integrity: sha512-62Omr8U0PO+hgjLCpPnMsmjh2/FRwIGOktZHyYAUzooEJotwkXHMp7vCacdYi8haxBNOiw9bc2HIHI+b/MPNjA==}
     dependencies:
-      '@types/node': 20.8.0
+      '@types/node': 20.8.2
     dev: false
 
   /bufferutil@4.0.7:
@@ -366,8 +366,8 @@ packages:
     resolution: {integrity: sha512-cyA56iCMHAh5CdzjJIa4aohJyeO1YbwLi3Jc35MmRU6poroFjIGZzUzupGiRPOjgHg9TLu43xbpwXk523fMxKA==}
     dev: false
 
-  /jose@4.14.6:
-    resolution: {integrity: sha512-EqJPEUlZD0/CSUMubKtMaYUOtWe91tZXTWMJZoKSbLk+KtdhNdcvppH8lA9XwVu2V4Ailvsj0GBZJ2ZwDjfesQ==}
+  /jose@4.15.1:
+    resolution: {integrity: sha512-CinpaEMmwb/59YG0N6SC3DY1imdTU5iNl08HPWR7NdyxACPeFuQbqjaocEjCDGq04KbnxSqQu702vL3ZTvKe5w==}
     dev: false
 
   /js-tokens@4.0.0:
