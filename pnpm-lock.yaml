@@ -24,8 +24,8 @@ dependencies:
     specifier: ^20.8.7
     version: 20.8.7
   '@types/react':
-    specifier: ^18.2.30
-    version: 18.2.30
+    specifier: ^18.2.31
+    version: 18.2.31
   '@types/react-dom':
     specifier: ^18.2.14
     version: 18.2.14
@@ -187,8 +187,8 @@ packages:
       '@supabase/node-fetch': 2.6.14
     dev: false
 
-  /@supabase/gotrue-js@2.56.0:
-    resolution: {integrity: sha512-UJEPWls3fN2TfqiDWP/b78Kby4VjPcXnMGmF2lfzP5IDS4xr1+kxBugGmrQXxX8mxBsmvmW1ATahzyBUU9FZyQ==}
+  /@supabase/gotrue-js@2.57.0:
+    resolution: {integrity: sha512-/CcAW40aPKgp9/w9WgXVUQFg1AOdvFR687ONOMjASPBuC6FsNbKlcXp4pc+rwKNtxyxDkBbR+x7zj/8g00r/Og==}
     dependencies:
       '@supabase/node-fetch': 2.6.14
     dev: false
@@ -227,7 +227,7 @@ packages:
     resolution: {integrity: sha512-yOCi94oO5WVUBhQ890BvtT7J3p8spP47PMhn22YldIcDLEQWE6N6X2JzfWCLHktXw+oCYUJfQBuqYhyLHAKb0w==}
     dependencies:
       '@supabase/functions-js': 2.1.5
-      '@supabase/gotrue-js': 2.56.0
+      '@supabase/gotrue-js': 2.57.0
       '@supabase/node-fetch': 2.6.14
       '@supabase/postgrest-js': 1.8.5
       '@supabase/realtime-js': 2.8.1
@@ -259,11 +259,11 @@ packages:
   /@types/react-dom@18.2.14:
     resolution: {integrity: sha512-V835xgdSVmyQmI1KLV2BEIUgqEuinxp9O4G6g3FqO/SqLac049E53aysv0oEFD2kHfejeKU+ZqL2bcFWj9gLAQ==}
     dependencies:
-      '@types/react': 18.2.30
+      '@types/react': 18.2.31
     dev: false
 
-  /@types/react@18.2.30:
-    resolution: {integrity: sha512-OfqdJnDsSo4UNw0bqAjFCuBpLYQM7wvZidz0hVxHRjrEkzRlvZL1pJVyOSY55HMiKvRNEo9DUBRuEl7FNlJ/Vg==}
+  /@types/react@18.2.31:
+    resolution: {integrity: sha512-c2UnPv548q+5DFh03y8lEDeMfDwBn9G3dRwfkrxQMo/dOtRHUUO57k6pHvBIfH/VF4Nh+98mZ5aaSe+2echD5g==}
     dependencies:
       '@types/prop-types': 15.7.9
       '@types/scheduler': 0.16.5
@@ -295,8 +295,8 @@ packages:
       streamsearch: 1.1.0
     dev: false
 
-  /caniuse-lite@1.0.30001551:
-    resolution: {integrity: sha512-vtBAez47BoGMMzlbYhfXrMV1kvRF2WP/lqiMuDu1Sb4EE4LKEgjopFDSRtZfdVnslNRpOqV/woE+Xgrwj6VQlg==}
+  /caniuse-lite@1.0.30001553:
+    resolution: {integrity: sha512-N0ttd6TrFfuqKNi+pMgWJTb9qrdJu4JSpgPFLe/lrD19ugC6fZgF0pUewRowDwzdDnb9V41mFcdlYgl/PyKf4A==}
     dev: false
 
   /client-only@0.0.1:
@@ -415,7 +415,7 @@ packages:
       '@next/env': 13.5.6
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001551
+      caniuse-lite: 1.0.30001553
       postcss: 8.4.31
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
