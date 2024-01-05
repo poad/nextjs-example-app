@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.4.2
     version: 0.4.2(@supabase/supabase-js@2.39.2)
   '@supabase/auth-ui-react':
-    specifier: ^0.4.6
-    version: 0.4.6(@supabase/supabase-js@2.39.2)
+    specifier: ^0.4.7
+    version: 0.4.7(@supabase/supabase-js@2.39.2)
   '@supabase/auth-ui-shared':
     specifier: ^0.1.8
     version: 0.1.8(@supabase/supabase-js@2.39.2)
@@ -160,8 +160,8 @@ packages:
       jose: 4.15.4
     dev: false
 
-  /@supabase/auth-ui-react@0.4.6(@supabase/supabase-js@2.39.2):
-    resolution: {integrity: sha512-uvjcH/K0rvFKUE5Uam5JI6IGXUWSv55GTYcVRRQFEwfav2sT4hzBh6A0gkX9gEZEprhSA9S5Pp5+TzkCAKgcbg==}
+  /@supabase/auth-ui-react@0.4.7(@supabase/supabase-js@2.39.2):
+    resolution: {integrity: sha512-Lp4FQGFh7BMX1Y/BFaUKidbryL7eskj1fl6Lby7BeHrTctbdvDbCMjVKS8wZ2rxuI8FtPS2iU900fSb70FHknQ==}
     peerDependencies:
       '@supabase/supabase-js': ^2.21.0
     dependencies:
