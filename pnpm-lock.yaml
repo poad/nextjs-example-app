@@ -10,19 +10,19 @@ importers:
     dependencies:
       '@supabase/auth-helpers-nextjs':
         specifier: ^0.10.0
-        version: 0.10.0(@supabase/supabase-js@2.43.1)
+        version: 0.10.0(@supabase/supabase-js@2.43.2)
       '@supabase/auth-helpers-react':
         specifier: ^0.5.0
-        version: 0.5.0(@supabase/supabase-js@2.43.1)
+        version: 0.5.0(@supabase/supabase-js@2.43.2)
       '@supabase/auth-ui-react':
         specifier: ^0.4.7
-        version: 0.4.7(@supabase/supabase-js@2.43.1)
+        version: 0.4.7(@supabase/supabase-js@2.43.2)
       '@supabase/auth-ui-shared':
         specifier: ^0.1.8
-        version: 0.1.8(@supabase/supabase-js@2.43.1)
+        version: 0.1.8(@supabase/supabase-js@2.43.2)
       '@supabase/supabase-js':
-        specifier: ^2.43.1
-        version: 2.43.1
+        specifier: ^2.43.2
+        version: 2.43.2
       '@types/node':
         specifier: ^20.12.12
         version: 20.12.12
@@ -151,8 +151,8 @@ packages:
   '@supabase/storage-js@2.5.5':
     resolution: {integrity: sha512-OpLoDRjFwClwc2cjTJZG8XviTiQH4Ik8sCiMK5v7et0MDu2QlXjCAW3ljxJB5+z/KazdMOTnySi+hysxWUPu3w==}
 
-  '@supabase/supabase-js@2.43.1':
-    resolution: {integrity: sha512-A+RV50mWNtyKo6M0u4G6AOqEifQD+MoOjZcpRkPMPpEAFgMsc2dt3kBlBlR/MgZizWQgUKhsvrwKk0efc8g6Ug==}
+  '@supabase/supabase-js@2.43.2':
+    resolution: {integrity: sha512-F9CljeJBo5aPucNhrLoMnpEHi5yqNZ0vH0/CL4mGy+/Ggr7FUrYErVJisa1NptViqyhs1HGNzzwjOYG6626h8g==}
 
   '@swc/counter@0.1.3':
     resolution: {integrity: sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==}
@@ -345,37 +345,37 @@ snapshots:
 
   '@stitches/core@1.2.8': {}
 
-  '@supabase/auth-helpers-nextjs@0.10.0(@supabase/supabase-js@2.43.1)':
+  '@supabase/auth-helpers-nextjs@0.10.0(@supabase/supabase-js@2.43.2)':
     dependencies:
-      '@supabase/auth-helpers-shared': 0.7.0(@supabase/supabase-js@2.43.1)
-      '@supabase/supabase-js': 2.43.1
+      '@supabase/auth-helpers-shared': 0.7.0(@supabase/supabase-js@2.43.2)
+      '@supabase/supabase-js': 2.43.2
       set-cookie-parser: 2.6.0
 
-  '@supabase/auth-helpers-react@0.5.0(@supabase/supabase-js@2.43.1)':
+  '@supabase/auth-helpers-react@0.5.0(@supabase/supabase-js@2.43.2)':
     dependencies:
-      '@supabase/supabase-js': 2.43.1
+      '@supabase/supabase-js': 2.43.2
 
-  '@supabase/auth-helpers-shared@0.7.0(@supabase/supabase-js@2.43.1)':
+  '@supabase/auth-helpers-shared@0.7.0(@supabase/supabase-js@2.43.2)':
     dependencies:
-      '@supabase/supabase-js': 2.43.1
+      '@supabase/supabase-js': 2.43.2
       jose: 4.15.5
 
   '@supabase/auth-js@2.64.2':
     dependencies:
       '@supabase/node-fetch': 2.6.15
 
-  '@supabase/auth-ui-react@0.4.7(@supabase/supabase-js@2.43.1)':
+  '@supabase/auth-ui-react@0.4.7(@supabase/supabase-js@2.43.2)':
     dependencies:
       '@stitches/core': 1.2.8
-      '@supabase/auth-ui-shared': 0.1.8(@supabase/supabase-js@2.43.1)
-      '@supabase/supabase-js': 2.43.1
+      '@supabase/auth-ui-shared': 0.1.8(@supabase/supabase-js@2.43.2)
+      '@supabase/supabase-js': 2.43.2
       prop-types: 15.8.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@supabase/auth-ui-shared@0.1.8(@supabase/supabase-js@2.43.1)':
+  '@supabase/auth-ui-shared@0.1.8(@supabase/supabase-js@2.43.2)':
     dependencies:
-      '@supabase/supabase-js': 2.43.1
+      '@supabase/supabase-js': 2.43.2
 
   '@supabase/functions-js@2.3.1':
     dependencies:
@@ -403,7 +403,7 @@ snapshots:
     dependencies:
       '@supabase/node-fetch': 2.6.15
 
-  '@supabase/supabase-js@2.43.1':
+  '@supabase/supabase-js@2.43.2':
     dependencies:
       '@supabase/auth-js': 2.64.2
       '@supabase/functions-js': 2.3.1
