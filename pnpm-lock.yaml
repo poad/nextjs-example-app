@@ -10,19 +10,19 @@ importers:
     dependencies:
       '@supabase/auth-helpers-nextjs':
         specifier: ^0.10.0
-        version: 0.10.0(@supabase/supabase-js@2.47.1)
+        version: 0.10.0(@supabase/supabase-js@2.47.2)
       '@supabase/auth-helpers-react':
         specifier: ^0.5.0
-        version: 0.5.0(@supabase/supabase-js@2.47.1)
+        version: 0.5.0(@supabase/supabase-js@2.47.2)
       '@supabase/auth-ui-react':
         specifier: ^0.4.7
-        version: 0.4.7(@supabase/supabase-js@2.47.1)
+        version: 0.4.7(@supabase/supabase-js@2.47.2)
       '@supabase/auth-ui-shared':
         specifier: ^0.1.8
-        version: 0.1.8(@supabase/supabase-js@2.47.1)
+        version: 0.1.8(@supabase/supabase-js@2.47.2)
       '@supabase/supabase-js':
-        specifier: ^2.47.1
-        version: 2.47.1
+        specifier: ^2.47.2
+        version: 2.47.2
       '@types/node':
         specifier: ^22.10.1
         version: 22.10.1
@@ -224,8 +224,8 @@ packages:
     peerDependencies:
       '@supabase/supabase-js': ^2.39.8
 
-  '@supabase/auth-js@2.65.1':
-    resolution: {integrity: sha512-IA7i2Xq2SWNCNMKxwmPlHafBQda0qtnFr8QnyyBr+KaSxoXXqEzFCnQ1dGTy6bsZjVBgXu++o3qrDypTspaAPw==}
+  '@supabase/auth-js@2.66.1':
+    resolution: {integrity: sha512-kOW+04SuDXmP2jRX9JL1Rgzduj8BcOG1qC3RaWdZsxnv89svNCdLRv8PfXW3QPKJdw0k1jF30OlQDPkzbDEL9w==}
 
   '@supabase/auth-ui-react@0.4.7':
     resolution: {integrity: sha512-Lp4FQGFh7BMX1Y/BFaUKidbryL7eskj1fl6Lby7BeHrTctbdvDbCMjVKS8wZ2rxuI8FtPS2iU900fSb70FHknQ==}
@@ -253,8 +253,8 @@ packages:
   '@supabase/storage-js@2.7.1':
     resolution: {integrity: sha512-asYHcyDR1fKqrMpytAS1zjyEfvxuOIp1CIXX7ji4lHHcJKqyk+sLl/Vxgm4sN6u8zvuUtae9e4kDxQP2qrwWBA==}
 
-  '@supabase/supabase-js@2.47.1':
-    resolution: {integrity: sha512-Q5zBX3BhK4tIFE6W8TK7NP29G9XCX8nzMydHONI8e/6HjYnKmUyNf33rsTTwGVVlXz2ruzJKO+EX4wuwD21Q4g==}
+  '@supabase/supabase-js@2.47.2':
+    resolution: {integrity: sha512-BdP5hY29eCROJRV61WCM+OzcTSjaSzZe0H+2l88tOwmTG+1XqCiVYtZnUNIh12V8g5gdmQL5urp1pSYARbl38A==}
 
   '@swc/counter@0.1.3':
     resolution: {integrity: sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==}
@@ -284,8 +284,8 @@ packages:
     resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
     engines: {node: '>=10.16.0'}
 
-  caniuse-lite@1.0.30001686:
-    resolution: {integrity: sha512-Y7deg0Aergpa24M3qLC5xjNklnKnhsmSyR/V89dLZ1n0ucJIFNs7PgR2Yfa/Zf6W79SbBicgtGxZr2juHkEUIA==}
+  caniuse-lite@1.0.30001687:
+    resolution: {integrity: sha512-0S/FDhf4ZiqrTUiQ39dKeUjYRjkv7lOZU1Dgif2rIqrTzX/1wV2hfKu9TOm1IHkdSijfLswxTFzl/cvir+SLSQ==}
 
   client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
@@ -557,37 +557,37 @@ snapshots:
 
   '@stitches/core@1.2.8': {}
 
-  '@supabase/auth-helpers-nextjs@0.10.0(@supabase/supabase-js@2.47.1)':
+  '@supabase/auth-helpers-nextjs@0.10.0(@supabase/supabase-js@2.47.2)':
     dependencies:
-      '@supabase/auth-helpers-shared': 0.7.0(@supabase/supabase-js@2.47.1)
-      '@supabase/supabase-js': 2.47.1
+      '@supabase/auth-helpers-shared': 0.7.0(@supabase/supabase-js@2.47.2)
+      '@supabase/supabase-js': 2.47.2
       set-cookie-parser: 2.7.1
 
-  '@supabase/auth-helpers-react@0.5.0(@supabase/supabase-js@2.47.1)':
+  '@supabase/auth-helpers-react@0.5.0(@supabase/supabase-js@2.47.2)':
     dependencies:
-      '@supabase/supabase-js': 2.47.1
+      '@supabase/supabase-js': 2.47.2
 
-  '@supabase/auth-helpers-shared@0.7.0(@supabase/supabase-js@2.47.1)':
+  '@supabase/auth-helpers-shared@0.7.0(@supabase/supabase-js@2.47.2)':
     dependencies:
-      '@supabase/supabase-js': 2.47.1
+      '@supabase/supabase-js': 2.47.2
       jose: 4.15.9
 
-  '@supabase/auth-js@2.65.1':
+  '@supabase/auth-js@2.66.1':
     dependencies:
       '@supabase/node-fetch': 2.6.15
 
-  '@supabase/auth-ui-react@0.4.7(@supabase/supabase-js@2.47.1)':
+  '@supabase/auth-ui-react@0.4.7(@supabase/supabase-js@2.47.2)':
     dependencies:
       '@stitches/core': 1.2.8
-      '@supabase/auth-ui-shared': 0.1.8(@supabase/supabase-js@2.47.1)
-      '@supabase/supabase-js': 2.47.1
+      '@supabase/auth-ui-shared': 0.1.8(@supabase/supabase-js@2.47.2)
+      '@supabase/supabase-js': 2.47.2
       prop-types: 15.8.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@supabase/auth-ui-shared@0.1.8(@supabase/supabase-js@2.47.1)':
+  '@supabase/auth-ui-shared@0.1.8(@supabase/supabase-js@2.47.2)':
     dependencies:
-      '@supabase/supabase-js': 2.47.1
+      '@supabase/supabase-js': 2.47.2
 
   '@supabase/functions-js@2.4.3':
     dependencies:
@@ -615,9 +615,9 @@ snapshots:
     dependencies:
       '@supabase/node-fetch': 2.6.15
 
-  '@supabase/supabase-js@2.47.1':
+  '@supabase/supabase-js@2.47.2':
     dependencies:
-      '@supabase/auth-js': 2.65.1
+      '@supabase/auth-js': 2.66.1
       '@supabase/functions-js': 2.4.3
       '@supabase/node-fetch': 2.6.15
       '@supabase/postgrest-js': 1.16.3
@@ -658,7 +658,7 @@ snapshots:
     dependencies:
       streamsearch: 1.1.0
 
-  caniuse-lite@1.0.30001686: {}
+  caniuse-lite@1.0.30001687: {}
 
   client-only@0.0.1: {}
 
@@ -706,7 +706,7 @@ snapshots:
       '@swc/counter': 0.1.3
       '@swc/helpers': 0.5.13
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001686
+      caniuse-lite: 1.0.30001687
       postcss: 8.4.31
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
